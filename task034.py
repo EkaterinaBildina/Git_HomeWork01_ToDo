@@ -42,7 +42,3 @@ else:
 
 
 # count.append([[letter for letter in i if letter in list_vowel] for i in single_in_count])
-#result = list(filter(lambda x: x[0] == x[i]  in range(len(count))))
-# print(count)
-# count = list(count)
-# print(list(filter(lambda x: x[0] == x[1], count)))
