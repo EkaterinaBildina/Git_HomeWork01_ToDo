@@ -19,12 +19,13 @@
 # 6 12 18 24 30 36
 
 
-def print_operation_table(operation, num_rows=6, num_columns=6):
-    for i in range(1, num_rows + 1): 
-        result = []
+def print_operation_table(operation, num_rows, num_columns):
+    for i in range(1, num_rows + 1):
+        elem = []
         for j in range(1, num_columns + 1):
-            result.append(operation(i,j))
-        print(result)
+            elem.append(operation(i, j))
+        print(elem)
 
-print_operation_table(lambda x , y: x * y)
+
+print_operation_table(lambda x, y: x * y, 6, 6 )
 
