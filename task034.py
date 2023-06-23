@@ -43,5 +43,4 @@ else:
 <<<<<<< HEAD
 
 # count.append([[letter for letter in i if letter in list_vowel] for i in single_in_count])
-=======
->>>>>>> parent of da0c551 (final)
+apply canges
