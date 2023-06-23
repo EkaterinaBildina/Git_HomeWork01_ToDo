@@ -43,4 +43,4 @@ else:
 <<<<<<< HEAD
 
 # count.append([[letter for letter in i if letter in list_vowel] for i in single_in_count])
-apply canges
+apply changes
