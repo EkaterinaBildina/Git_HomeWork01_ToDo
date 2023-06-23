@@ -16,9 +16,9 @@
 #     **Вывод:** Парам пам-пам
 
 
-# input_single = str(input("Привет, Винни-Пух! Запиши свое стихотворение: "))
 
-input_single = 'пара-ра-рам рам-пам-папам па-ра-па-да-ду'
+input_single = str(input("Привет, Винни-Пух! Запиши свое стихотворение: "))
+# input_single = 'пара-ра-рам рам-пам-папам па-ра-па-да'
 print(input_single)
 single_in_count = input_single.split()
 print(single_in_count)
@@ -32,13 +32,16 @@ for i in single_in_count:
         if letter in list_vowel:
             sum += 1
     count.append(sum)
-print(count)
 
+print(count)
 
 if len(set(count)) == 1:
     print("Парам пам-пам")
 else:
     print("Пам парам")
 
+<<<<<<< HEAD
 
 # count.append([[letter for letter in i if letter in list_vowel] for i in single_in_count])
+=======
+>>>>>>> parent of da0c551 (final)
